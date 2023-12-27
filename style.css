@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('./img/littlecaesarshome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-header {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background: rgb(0,0,0,.5);
+    width: 100%;
+    padding: 2rem;
+}
+
+.btn-header div {
+    border: solid 2px white;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home:has(h1, p){
+    color: white;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home p {
+    font-size: 1.5rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form input[type='submit'] {
+    width: fit-content;
+    align-self: center;
+    padding: 1rem 2rem;
+    color: white;
+    background: green;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.pizza-container {
+    display: flex;
+}
+
+.pizza-img {
+    height: 200px;
+    width: 300px;
+
+}
+
+.pizza-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0,0,0,.5);
+    width: 300px;
+}
+
+.pizza-text-container:has(h1, p) {
+    color: white;
+    text-wrap: pretty;
+}
+
+.pizza-text-container p {
+    text-align: right;
+}
