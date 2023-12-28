@@ -12,7 +12,7 @@ const createMenuPage = () => {
     const cheeseImgContainer = document.createElement('div');
     const cheeseImg = document.createElement('img');
     cheeseImg.classList.add('pizza-img');
-    cheeseImg.src = '../dist/img/classic-cheese.jpg';
+    cheeseImg.src = './img/classic-cheese.jpg';
 
     cheeseImgContainer.appendChild(cheeseImg);
 
@@ -38,7 +38,7 @@ const createMenuPage = () => {
     const pepImgContainer = document.createElement('div');
     const pepImg = document.createElement('img');
     pepImg.classList.add('pizza-img');
-    pepImg.src = '../dist/img/classic-pepperoni.jpg';
+    pepImg.src = './img/classic-pepperoni.jpg';
 
     pepImgContainer.appendChild(pepImg);
 
@@ -65,7 +65,7 @@ const createMenuPage = () => {
     const vegImgContainer = document.createElement('div');
     const vegImg = document.createElement('img');
     vegImg.classList.add('pizza-img');
-    vegImg.src = '../dist/img/veggie.jpg';
+    vegImg.src = './img/veggie.jpg';
 
     vegImgContainer.appendChild(vegImg);
 
@@ -92,7 +92,7 @@ const createMenuPage = () => {
     const hulaImgContainer = document.createElement('div');
     const hulaImg = document.createElement('img');
     hulaImg.classList.add('pizza-img');
-    hulaImg.src = '../dist/img/hula-hawaiian.jpg';
+    hulaImg.src = './img/hula-hawaiian.jpg';
 
     hulaImgContainer.appendChild(hulaImg);
 

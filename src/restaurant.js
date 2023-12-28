@@ -10,7 +10,7 @@ const createRestaurantHomePage = () => {
     heading.innerHTML = "Welcome to Little Caesars!";
 
     const img = document.createElement('img');
-    img.src = '../dist/img/littlecaesar.jpeg';
+    img.src = './img/littlecaesar.jpeg';
 
     const p = document.createElement('p');
     p.innerHTML = "The BEST place for pizza in town!";
